@@ -19,11 +19,6 @@ function App() {
     updatePeople(temp)
   }
 
-  // const openModal = (id) =>{
-  //   let temp = people.filter(each => each.id !== id)
-  //   updatePeople(temp)
-  // } 
-
   return (
     <div style={{ color: 'blue' }} className="App">
       <div className="container mt-5">
