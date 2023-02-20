@@ -1,12 +1,12 @@
 import './card.css'
 
-let modal = document.getElementById("myModal");
-
 const openModal = (id) =>{
+    let modal = document.getElementById("myModal");
     modal.style.display = "block";
   } 
 
 const closeModal = (id) =>{
+let modal = document.getElementById("myModal"); 
     modal.style.display = "none";
   }
 
